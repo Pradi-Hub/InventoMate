@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InventoMate</string>
+    <string name="menuHome">Home</string>
+    <string name="menuStocks">Stocks</string>
+    <string name="menuReport">Report</string>
+    <string name="menuProfile">Profile</string>
+    <string name="htnUname">User Name</string>
+    <string name="hntpw">Password</string>
+    <string name="hntEmail">E-mail</string>
+    <string name="hntRepeatPW">Repeat password</string>
+    <string name="hntContactNo">Contact No</string>
+</resources>

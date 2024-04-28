@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stocks">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/darkpurple"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/darkpurple"
+            android:src="@drawable/baseline_home_24" />
+
+        <ImageButton
+            android:id="@+id/stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/baseline_stockshover_24" />
+
+        <ImageButton
+            android:id="@+id/report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/darkpurple"
+            android:src="@drawable/baseline_report_24" />
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/darkpurple"
+            android:src="@drawable/baseline_account_circle_24" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Stock List"
+        android:textSize="@dimen/heading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="viewStart">
+
+            <Button
+                android:id="@+id/Sbutton22"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 1"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 2"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 3"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton25"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 4"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 5"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton21"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 6"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton24"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 7"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton23"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 8"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 9"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 10"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton20"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 11"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton19"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 12"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton18"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 13"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton14"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 14"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 15"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton16"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 16"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/Sbutton17"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="@color/darkpurple"
+                android:text="item 17"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

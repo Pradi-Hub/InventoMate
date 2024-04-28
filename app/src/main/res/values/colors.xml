@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--primary color-->
+    <color name="white">#FFFFFFFF</color>
+    <!--Secondary color-->
+    <color name="darkpurple">#FF423787</color>
+    <!--Accent color-->
+    <color name="black">#FF000000</color>
+</resources>
