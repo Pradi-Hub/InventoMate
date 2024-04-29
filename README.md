@@ -1,4 +1,5 @@
 <H1>InventoMate</H1>
+<img align="right" alt="giphy" width="90" src="/app/src/main/res/drawable/pradi_logo.jpg">
 InventoMate is a cutting-edge inventory management application tailored for mobile devices, providing seamless stock tracking and optimization solutions for businesses across various industries. Catering to the needs of managers and inventory handlers, this app is designed to address the challenges of maintaining accurate inventory levels efficiently.
 
 <h2>Target Audience:</h2>
