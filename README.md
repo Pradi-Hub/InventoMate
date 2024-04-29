@@ -1,4 +1,4 @@
-<H1>App name: InventoMate</H1>
+<H1>InventoMate</H1>
 InventoMate is a cutting-edge inventory management application tailored for mobile devices, providing seamless stock tracking and optimization solutions for businesses across various industries. Catering to the needs of managers and inventory handlers, this app is designed to address the challenges of maintaining accurate inventory levels efficiently.
 
 <h2>Target Audience:</h2>
@@ -32,3 +32,5 @@ InventoMate utilizes a combination of linear layouts (both horizontal and vertic
 <p>
 In summary, InventoMate emerges as a comprehensive inventory management solution for businesses seeking to streamline stock tracking, optimize inventory levels, and enhance operational efficiency, all within the convenience of a mobile application.
 </p>
+<h2>Language : </h2>
+<p><img src="https://skillicons.dev/icons?i=kotlin" width=40></p>
