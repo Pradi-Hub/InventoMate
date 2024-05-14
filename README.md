@@ -30,8 +30,26 @@ The app tackles the common pain points associated with manual inventory tracking
 <h2>Layouts and Views:</h2>
 InventoMate utilizes a combination of linear layouts (both horizontal and vertical), constraint layouts, and scroll views to optimize screen space and ensure a responsive user interface. Views such as TextViews, EditTexts, Buttons, and ImageViews are strategically placed to enhance usability and functionality, facilitating seamless interaction with the app's features.
 <br><br>
-<p>
-In summary, InventoMate emerges as a comprehensive inventory management solution for businesses seeking to streamline stock tracking, optimize inventory levels, and enhance operational efficiency, all within the convenience of a mobile application.
-</p>
+
+## Screenshots of app UI
+
+<div style="display:flex;">
+  <p align="center">
+<img src="UI/1.png" width="200">
+<img src="UI/2.png" width="200">
+<img src="UI/3.png" width="200">
+<img src="UI/4.png" width="200">
+    </p>
+
+</div>
+<br>
+<div style="display:flex;">
+  <p align="center">
+<img src="UI/5.png" width="200">
+<img src="UI/6.png" width="200">
+<img src="UI/7.png" width="200">
+    </p>
+</div>
+
 <h2>Language : </h2>
 <p><img src="https://skillicons.dev/icons?i=kotlin" width=40></p>
